@@ -6,3 +6,6 @@ for x in a:
     else:
         continue
 print(even)
+
+b = list(filter(lambda x: x % 2 == 0, a))
+print(b)
